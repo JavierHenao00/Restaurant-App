@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Restaurant App</title>
+</head>
+<body>
+    <header>
+        <img src="/img/header.png" alt="header burger">
+    </header>
+
+    <div id="container-products">
+
+    </div>
+    <div id="Feedback-container"></div>
+    <div id="order-container">
+        <h1 id="title-order">Your order</h1>
+        
+    </div>
+ 
+    
+    <div id="total-container">
+
+    </div>
+    <button class="order-btn">Complete order</button>
+    
+
+        <div id="modal-pay">
+            
+            
+            
+            <div id="modal-inner">
+                <h1 id="title-pay">Enter card details</h1>
+                <form id="pay-form">
+
+                    <input type="text" name="full-Name" placeholder=" Enter your name" required/>
+                    <input type="text" placeholder=" Enter card number" maxlength="16" required/>
+                    <input type="text" placeholder=" Enter CVV" maxlength="3" required/>
+
+                    <button type="submit" id="pay-btn">Pay</button>
+
+
+                </form>
+            </div>
+
+        </div>
+<script src="index.js" type="module"></script>
+    
+</body>
+</html>
+
